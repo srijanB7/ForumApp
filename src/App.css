@@ -1,0 +1,44 @@
+.main-page {
+    display: flex;
+}
+
+.center-feed {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.center-feed > a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.post-comments {
+    background-color: #faf9f6;
+    padding: 0.4rem;
+}
+
+.comment-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment-footer > button {
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+}

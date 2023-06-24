@@ -1,0 +1,11 @@
+.nav {
+    display: flex;
+    
+    border:  1px solid;
+    color: purple;
+    background-color: whitesmoke;
+}
+
+.nav > h1 {
+    margin: 20px 100px;
+}

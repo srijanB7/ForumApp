@@ -1,0 +1,32 @@
+.left-side-bar-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+}
+
+.left-side-bar-container > a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    
+    
+}
+
+.left-side-bar-container > a :hover {
+    font-weight: bold;
+}
+
+
+.left-side-bar-container > a > button {
+    border: none;
+    background-color: transparent;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.left-side-bar-container > a > label {
+    cursor: pointer;
+    width: 100px;
+}
+
